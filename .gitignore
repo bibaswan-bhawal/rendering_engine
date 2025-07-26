@@ -1,0 +1,43 @@
+build/
+*.o
+*.out
+*.exe
+*.app
+
+# generated files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# vim
+*.swp
+*.swo
+
+# macOS specific
+*.DS_Store
+*.AppleDouble
+.AppleDB
+.AppleDesktop
+.LSOverride
+
+# Thumbnails
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode specific
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj
+*.xcscheme
+
+# CMake specific
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+
